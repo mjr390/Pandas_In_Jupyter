@@ -124,8 +124,8 @@ plt.xlim(min(ridesFareDriversType["Total Rides"])-3, max(ridesFareDriversType["T
 plt.ylim(min(ridesFareDriversType["Average Fare"]-3), max(ridesFareDriversType["Average Fare"]+3))
 
 #save the chart and show the completed scatter
-pyberScatter = plt.savefig('PyberScatter.png', bbox_inches='tight')
-plt.show(pyberScatter)
+plt.savefig('PyberScatter.png', bbox_inches='tight')
+plt.show('PyberScatter.png')
 ```
 
 
@@ -157,8 +157,8 @@ plt.pie(fare_by_city_type, labels=cityType,colors=colors,shadow=True, autopct="%
 #give the chart a title
 plt.title("Total Fares by City Type")
 #save and show the chart
-FarebyCity = plt.savefig('FareCity.png', bbox_inches='tight')
-plt.show(FarebyCity)
+plt.savefig('FareCity.png', bbox_inches='tight')
+plt.show('FareCity.png')
 ```
 
 
@@ -181,8 +181,8 @@ plt.pie(count_by_city_type, labels=cityType,colors=colors,shadow=True, autopct="
 #Give the pie chart a title
 plt.title("% of Total Rides by City Type")
 #save and show the chart
-RidesbyCity = plt.savefig('RidesCity.png', bbox_inches='tight')
-plt.show(RidesbyCity)
+plt.savefig('RidesCity.png', bbox_inches='tight')
+plt.show('RidesCity.png')
 ```
 
 
@@ -210,8 +210,8 @@ plt.pie(totdrivers, labels=cityType, colors=colors,shadow=True, autopct="%1.1f%%
 #add a title to the chart and display it
 plt.title("% of Total Drivers by City Type")
 #save and show the pie chart
-DriversbyCity = plt.savefig('DriversCity.png', bbox_inches='tight')
-plt.show(DriversbyCity)
+plt.savefig('DriversCity.png', bbox_inches='tight')
+plt.show('DriversCity.png')
 ```
 
 
