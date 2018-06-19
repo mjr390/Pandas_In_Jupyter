@@ -16,6 +16,8 @@ import pandas as pd
 #use ; sns.set() and sns.set_color_codes() to set the background
 import seaborn as sns; sns.set()
 sns.set_color_codes()
+#set the size of the charts
+sns.set(rc={'figure.figsize':(8,8)})
 
 #read the data files and set them to variables
 city_data = pd.read_csv("raw_data/city_data.csv")
@@ -88,6 +90,7 @@ urba = ridesFareDriversType.loc[ridesFareDriversType["type"]=="Urban"]
 subur = ridesFareDriversType.loc[ridesFareDriversType["type"]=="Suburban"]
 rura = ridesFareDriversType.loc[ridesFareDriversType["type"]=="Rural"]
 
+
 #use the 3 split data frames to plot the data in a scatter
 #Set the colors for each to be from the Pyber colors, the size of each to be based on the number of drivers, 
 #set the alpha to be slightly transparent so it can be seen if any data is overlapping
@@ -122,6 +125,7 @@ plt.text(45,30,"Circle size correlates with driver count per city.", fontsize=13
 #Set the chart limits to be slightly larger than the data so it can all be seen clearly
 plt.xlim(min(ridesFareDriversType["Total Rides"])-3, max(ridesFareDriversType["Total Rides"]+3))
 plt.ylim(min(ridesFareDriversType["Average Fare"]-3), max(ridesFareDriversType["Average Fare"]+3))
+
 
 #save the chart and show the completed scatter
 plt.savefig('PyberScatter.png', bbox_inches='tight')
