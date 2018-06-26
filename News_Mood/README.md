@@ -2,8 +2,8 @@
 # News Mood
 
 # Analysis 
-1. None of the media outlets searched had a positive average compound sentiment over their past 100 tweets.
-2. The New York Times had the highest average compound sentiment at (-0.0266).
+1. None of the media outlets searched had a positive average compound sentiment over their past 100 tweets at the time the data was obtained.
+2. The New York Times had the highest average compound sentiment (-0.0266) for it's past 100 tweets at the time the data was obtained.
 3. The largest cluster of scores is on the zero line, suggesting that news organizations write tweets designed to be neutral.
 
 
@@ -60,8 +60,7 @@ for target in target_users:
             neg = results["neg"]
             tweets_ago = counter
 
-            # Get Tweet ID, subtract 1, and assign to oldest_tweet
-#             oldest_tweet = tweet['id'] - 1
+
             #append the list with a dictionary containing keys and values for: the tweet date, how many tweets ago it was tweeted
             #the accoutn that tweeted, the text of the tweet, and the compound, positive, negative, and neutral scores
             found_data.append({"Date": tweet["created_at"], 
