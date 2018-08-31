@@ -4,7 +4,7 @@
 # Analysis
 
 1. It can be concluded that there are significantly more cities in the nothern part of the word (Latitude 60 to 90), compered to cities in the southern part of the world (Latitude -60 to -90).
-2. From the scatter plots it can alos be seen that there isn't much correlation between latitude and wind speed or latitude and cloudiness at the time the data was taken on June 18, 2018.
+2. From the scatter plots it can also be seen that there isn't much correlation between latitude and wind speed or latitude and cloudiness at the time the data was taken on June 18, 2018.
 3. The Latitude vs Max Temerature plot shows that as you move further away from the center, the maximun temerature is lower for cities compared to cities near the center on June 18, 2018.
 
 
