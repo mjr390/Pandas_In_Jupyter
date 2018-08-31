@@ -1,6 +1,22 @@
 
 # News Mood
 
+The goal of this project was to find out the overall sentiment of tweets sent out by major news organizations twitter accounts.  The data set was put together by using Tweepy to gather the past 100 tweets from each organization, VADER was used for the sentiment analysis.  The data is then plotted into a scatter plot containing all of the gathered tweets, and a bar plot containing the average score for each news organization.  Included in this repo is the README containing a short analysis and the code used for the project, a csv containing all of the gethered data, images of plots are included as png files and in the README.  The code can be run again to gather a new set of data by running each of the cells in the ipynb file.
+
+What the code does:
+
+- Create a hard coding list of all the twitter handels to analyse
+
+- Loop through the list and loop through the first five pages to get the 100 most recent tweets
+
+- Create a dictionary for each tweet containing the different VADER scores, how many tweets ago the tweet was tweeted, the account, and the text.  This is all appened to a list to contain all of the tweets information
+
+- Converts the data to a data frame and exports it to a csv
+
+- Create a scatter plot comparing the tweets overall sentiment and how many tweets ago for each tweet
+
+- Create a bar plot comparing the average overall sentiment for each twitter account 
+
 # Analysis 
 1. None of the media outlets searched had a positive average compound sentiment over their past 100 tweets at the time the data was obtained.
 2. The New York Times had the highest average compound sentiment (-0.0266) for it's past 100 tweets at the time the data was obtained.
