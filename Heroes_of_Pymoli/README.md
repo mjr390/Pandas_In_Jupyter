@@ -1,4 +1,22 @@
 
+The goal of this project was to use pandas to examine sales and demographic data of an inline gaming company.  The dataset, which is in the Resources folder, contains data about the customers of the company and the items purchased.  Included in this repo is this README contining a short analysis of the findings, the code used, and multiple data frames created from the data, and an ipynb file containg the code that can be run.
+
+What the code does:
+
+- Loads in the csv and converts it to a data frame
+
+- Finds the total number of unique players, and makes a data frame of this information
+
+- Finds the total number if unique items purchased, the average price, number of purchases, and total revenue of the dataset.  This info is converted into a readable data frame
+
+- Creates a data frame breaking down the players by gender and another data frame showing sales info by gender
+
+- Creates a data frame showing the player base by age, and another data frame with purchase statistics by age
+
+- Creates a data frame showing the top 5 spenders
+
+- Creates a data frame showing the most popular items and a data frame showing the most profitable items
+
 # Heroes Of Pymoli Data Analysis
     1. While the vast majority of players are male, their average purchase price per item ($3.02), is lower than average purchase price of all players ($3.05).
     2. The most popular item ("Oathbreaker, Last Hope of the Breaking Storm") is also the most profitable. The second ("Nirvana") and third ("Fiery Glass Crusader") most profitable items are also in the top 4 most popular items.
