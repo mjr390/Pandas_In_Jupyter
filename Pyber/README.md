@@ -133,7 +133,7 @@ plt.show('PyberScatter.png')
 ```
 
 
-![png](output_4_0.png)
+![png](PyberScatter.png)
 
 
 # Total Fares by City Type
@@ -166,7 +166,7 @@ plt.show('FareCity.png')
 ```
 
 
-![png](output_6_0.png)
+![png](FareCity.png)
 
 
 # Total Rides by City Type 
@@ -190,7 +190,7 @@ plt.show('RidesCity.png')
 ```
 
 
-![png](output_8_0.png)
+![png]RidesCity.png)
 
 
 # Total Drivers by City Type
@@ -219,5 +219,5 @@ plt.show('DriversCity.png')
 ```
 
 
-![png](output_10_0.png)
+![png](DriversCity.png)
 
